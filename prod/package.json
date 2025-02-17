@@ -1,0 +1,19 @@
+{
+  "name": "@arnaud.buchholz/prod",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-from-dev": "node --require @arnaud.buchholz/dev/script -e \"process.exit(0)\""
+  },
+  "exports": {
+    ".": {
+      "require": "./dateHelpers.js"
+    },
+    "./date": {
+      "require": "./dateHelpers.js"
+    }
+  },
+  "devDependencies": {
+    "@arnaud.buchholz/dev": "1.0.0"
+  }
+}

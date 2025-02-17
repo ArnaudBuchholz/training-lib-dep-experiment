@@ -1,0 +1,16 @@
+{
+  "name": "@arnaud.buchholz/lib",
+  "version": "1.0.0",
+  "exports": {
+    "./date": {
+      "require": "./dateHelpers.js"
+    }
+  },
+  "dependencies": {
+    "@arnaud.buchholz/prod": "1.0.0"
+  },
+  "devDependencies": {
+    "@arnaud.buchholz/dev": "1.0.0"
+  }
+ }
+ 

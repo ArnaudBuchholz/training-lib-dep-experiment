@@ -1,0 +1,16 @@
+{
+  "name": "@arnaud.buchholz/dev",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    "./script": "./helloWorld.js",
+    "./test": {
+      "require": "./test.js"
+    }
+  },
+  "dependencies": {
+    "@arnaud.buchholz/prod": "1.0.0"
+  }
+}
